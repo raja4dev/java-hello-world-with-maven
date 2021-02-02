@@ -57,5 +57,18 @@
     <maven.compiler.target>11</maven.compiler.target>
   </properties>
 
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>artifactory-releases</name>
+        <url>http://localhost:8082/artifactory/libs-release-local</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>artifactory-snapshots</name>
+        <url>http://localhost:8082/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
 
