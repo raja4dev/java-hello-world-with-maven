@@ -8,7 +8,6 @@
   <version>1.0.0</version>
   <name>maigolab_hello</name>
   <url>http://maven.apache.org</url>
-  <type>asc</type>
 
   <build>
     <plugins>
@@ -79,4 +78,3 @@
     </snapshotRepository>
 </distributionManagement>
 </project>
-
